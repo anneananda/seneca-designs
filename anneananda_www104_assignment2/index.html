@@ -1,0 +1,159 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!--I understand that <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> is showing as a validation error but my site works so I wish to ignore it-->
+        <title>Ananda Group International</title>
+        <meta name="description" content="Seneca Designs">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta name="author" content="Anne Ananda">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        
+    </head>
+    <body>
+          <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<!--https://github.com/afarkas/html5shiv-->
+        
+
+   
+  <div class="container-fluid">
+    <header>
+        <h1 class="pull-left"><img src="img/logo.jpg" width="175" height="125" alt="Ananda Group International Logo"/></h1>
+            <nav class="pull-right">
+                <a href="#" id="menu-icon"> </a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><strong>ABOUT US</strong></a></li>
+                    <li><a href="#"><strong>SERVICES</strong></a></li>
+                    <li><a href="#"><strong>CONTACT</strong></a></li>
+                </ul>
+            </div>
+            </nav>
+          
+    </header>
+        
+            <div class="clearfix"></div>
+        
+ <div class="container">
+            <h1>We are an International conglomerate with business in many countries around the world.</h1>     
+     
+</div>
+
+<hr>
+      
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <canvas  id="ukraine" width="140" height="80"></canvas>
+                <p>Ukraine</p>                 
+        </div>                  
+                              
+    <div class="col-sm-3">
+            <canvas id="india" width="140" height="80"></canvas>                                                 <p>India</p>
+       </div>
+        
+    <div class="col-sm-3">
+            <canvas  id="benin" width="140" height="80"></canvas>   
+                <p>Benin</p>
+        </div>
+                              
+    <div class="col-sm-3">
+            <canvas id="yemen" width="140" height="80"></canvas>                     
+                <p>Yemen</p>
+        </div>                       
+    </div>                     
+</div>  
+      
+     <hr>
+                                                         
+  <div class="container">
+      <div class="row" id="row">
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <img src="img/data_analysis.jpg" class="img-responsive" width="1000" height="660" alt="Analyze"/>
+          <h2>Analyze</h2>
+            <p class="text">Maecenas molestie euismod neque, vitae accumsan est egestas sit amet. Nulla eleifend viverra metus vitae rhoncus. Sed eget iaculis ligula. Quisque porttitor nulla at ullamcorper aliquet. Cras non suscipit risus. Sed nec ex augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+ </p>
+        </div>
+        
+     <div class="col-xs-12 col-md-4 col-lg-4">
+          <img src="img/meeting2.jpg" class="img-responsive" width="1000" height="660"  alt="Strategize"/>
+          <h2>Strategize</h2>
+          <p class="text">Maecenas molestie euismod neque, vitae accumsan est egestas sit amet. Nulla eleifend viverra metus vitae rhoncus. Sed eget iaculis ligula. Quisque porttitor nulla at ullamcorper aliquet. Cras non suscipit risus. Sed nec ex augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>          
+        </div>
+     <div class="col-xs-12 col-md-4 col-lg-4">
+          <img src="img/standards.jpg" class="img-responsive"  width="1000" height="660" alt="Deliver"/>
+          <h2>Deliver</h2>
+          <p class="text">Maecenas molestie euismod neque, vitae accumsan est egestas sit amet. Nulla eleifend viverra metus vitae rhoncus. Sed eget iaculis ligula. Quisque porttitor nulla at ullamcorper aliquet. Cras non suscipit risus. Sed nec ex augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+      </div>     
+
+<hr>
+      
+<footer>
+    <small>&copy;2015 Ananda Group International. All Rights Reserved.</small>
+</footer>
+    
+</div>       
+</div>
+        
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script>
+
+//Ukraine        
+var ukraine = document.getElementById('ukraine');
+var ctx = ukraine.getContext('2d');        
+ctx.fillStyle = "#005BBB";
+ctx.fillRect(0,0,150,90);
+ctx.fillStyle = "#FFD500";
+ctx.fillRect(0,50,150,90);
+          
+//India
+var canvas = document.getElementById('india');
+var ctx = canvas.getContext('2d');
+ctx.fillStyle = 'Red';
+ctx.fillRect(0,0,150,90);
+ctx.fillStyle='white';
+ctx.fillRect(0,30,150,30);
+ctx.fillStyle='Green';
+ctx.fillRect(0,60,150,30);
+            
+//Benin          
+var canvas= document.getElementById('benin');
+var ctx = canvas.getContext('2d');
+ctx.strokeRect(0,0,150,90);
+ctx.fillStyle = "#009A67";
+ctx.fillRect(0,0,150,90);
+ctx.fillStyle = "#FAE30D";
+ctx.fillRect(50,0,100,45);
+ctx.fillStyle = "#F50C2C";
+ctx.fillRect(50,45,100,45);
+        
+//Yemen
+var canvas = document.getElementById('yemen');
+var ctx = canvas.getContext('2d');
+ctx.fillStyle = '#E61126';
+ctx.fillRect(0,0,150,90);
+ctx.fillStyle='white';
+ctx.fillRect(0,30,150,30);
+ctx.fillStyle='Black';
+ctx.fillRect(0,60,150,30);
+
+</script>
+
+</body>
+</html>
